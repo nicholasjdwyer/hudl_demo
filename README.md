@@ -5,17 +5,25 @@ Scope:
 Purpose of this project is to run a few simple tests for the hudl login page. 
 
 
+
 To Run:
 You will need python, selenium, and the most recent chrome and chrome web driver to run the suite. Additionally you will need to replace the below variables in the tests with your own creds to execute the tests. 
 
 *UserName*
+
 *PassWord*
+
 
 Replace those with your own username and password in the .py file test data section you are running to execute tests. 
 
+
+
 To Do:
+
 -review hudl documentation to clean up IDE steps into more stable selection (like using testing specific tags if they exist) 
+
 -create additional accounts in various states to check additional login scenarios (locked out, needing password reset, deleted or expired accounts) 
+
 -add reporting so testing results can be more easily passed along 
 
 
